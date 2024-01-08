@@ -69,10 +69,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 To run front-end
 =======
 
+## To run the back-end
 
+`npm run start-backend` 
 
-### `npm run start-backend` 
-
-To run back-end port
 =======
 
