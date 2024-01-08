@@ -28,6 +28,11 @@ h3:hover {
     transform: scale(1.40);
   }
 
+footer {
+    font-family: serif;
+    color: #EED65E;
+}
+
 /* DESKTOP AND ABOVE */
 @media only screen and (min-width: 600px) {
     img {

@@ -9,7 +9,7 @@ const App = () => {
 
     return (
       <div className="App">
-         <BrowserRouter basename={"/lotrQuoteGenerator"} >
+         <BrowserRouter basename={"/lotr-quote-generator"} >
               <Routes>
                   <Route path="/" element={<LandingPage film={film} setFilm={setFilm} />} />
                   <Route path="/Film" element={<Film film={film} setFilm={setFilm} />} />
