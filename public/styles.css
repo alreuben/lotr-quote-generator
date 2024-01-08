@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Ringbearer";
+    src: url("./public/fonts/RingbearerMedium-51mgZ.woff2")
+    format("woff");
+    font-style: normal;
+    font-weight: bold;
+}
+
+* {
+    font-family: "Ringbearer";
+}

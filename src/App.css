@@ -1,0 +1,17 @@
+.wrapper-LandingPage {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center; 
+  overflow-x: hidden;
+}
+
+.wrapper-Film {
+  background-color: #222315;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center; 
+  overflow-x: hidden;
+}

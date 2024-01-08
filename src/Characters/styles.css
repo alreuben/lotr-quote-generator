@@ -1,0 +1,16 @@
+.card {
+    background-color: #222315;
+}
+
+.card-text {
+    color: #F3C05C;
+}
+
+#cardCharacterName {
+    font-family: 'Ringbearer', 'MedievalSharp', serif;
+}
+/* @media only screen and (max-width: 600px) {
+    img {
+        width: auto;
+    }
+} */

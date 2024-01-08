@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bilbo&family=MedievalSharp&display=swap');
+
+#characterQuotePara {
+background-color: #11130ec7;
+}
+
+#paraName {
+    font-family: 'Ringbearer', 'MedievalSharp', serif;
+    color: #856638;
+    font-size: 2.5rem;
+}
+
+#paraQuote {
+    font-family: 'Bilbo', cursive;
+    color: #F3C05C;
+    font-size: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+#characterQuotePara {
+    pointer-events: none
+}
+
+/* MOBILE */
+@media only screen and (max-width: 600px) {
+
+    #characterTitle {
+        font-size: 1.7rem;
+    }
+
+    #characterQuotePara {
+        background-color: #11130ec7;
+    }
+
+    #paraName {
+        font-family: 'Ringbearer', 'MedievalSharp', serif;
+        color: #856638;
+        font-size: 1.7rem;
+    }
+
+    #paraQuote {
+        font-family: 'Bilbo', cursive;
+        color: #F3C05C;
+        font-size: 1.3rem;
+        padding-left: 1.3rem;
+        padding-right: 1.3rem;
+    }
+}
