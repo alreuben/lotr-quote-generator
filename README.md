@@ -32,27 +32,10 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
@@ -63,15 +46,26 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 =======
 
-## To run the front-end
-### `npm start` 
+### To run the front-end
+## `npm start` 
 
-To run front-end
+Runs the app in the development mode.\
+Open [http://localhost:3000/lotr-quote-generator](http://localhost:3000/lotr-quote-generator) to view it in your browser.
+
 =======
 
-## To run the back-end
+### To run the back-end
+## `npm run start-backend` 
 
-`npm run start-backend` 
+Runs the API endpoints in the development mode.\
+Open [http://localhost:9000](http://localhost:9000) with the correct endpoint(below) to view it in your browser.
+The three fetched endpoints are:
+
+## `http://localhost:9000/Fellowship` 
+
+## `http://localhost:9000/TwoTowers` 
+
+## `http://localhost:9000/ReturnKing)` 
 
 =======
 
