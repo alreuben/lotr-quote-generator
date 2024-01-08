@@ -46,26 +46,33 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 =======
 
-### To run the front-end
-## `npm start` 
+ To run the front-end
+###  `npm start` 
 
 Runs the app in the development mode.\
 Open [http://localhost:3000/lotr-quote-generator](http://localhost:3000/lotr-quote-generator) to view it in your browser.
 
 =======
 
-### To run the back-end
-## `npm run start-backend` 
+ To run the back-end
+### `npm run start-backend` 
 
 Runs the API endpoints in the development mode.\
 Open [http://localhost:9000](http://localhost:9000) with the correct endpoint(below) to view it in your browser.
 The three fetched endpoints are:
 
-## `http://localhost:9000/Fellowship` 
+'The Fellowship of the Ring' Endpoint 
+[http://localhost:9000/Fellowship](http://localhost:9000/Fellowship)
+
+'The Two Towers' Endpoint 
 
 ## `http://localhost:9000/TwoTowers` 
+[http://localhost:9000/TwoTowers](http://localhost:9000/TwoTowers)
+
+'The Return of the King' Endpoint 
 
 ## `http://localhost:9000/ReturnKing)` 
+[http://localhost:9000/ReturnKing](http://localhost:9000/ReturnKing)
 
 =======
 
