@@ -11,11 +11,6 @@ Here, the user can select any character on the page, which will select and displ
 The API used [https://the-one-api.dev/](https://the-one-api.dev/).
 
 
-
-
-
-
-
 ### Built With
 - Node.js
 - React
@@ -47,10 +42,6 @@ REACT_APP_RAPID_API_ID =  ACCEPT HEADER
 REACT_APP_RAPID_API_KEY = AUTHORIZATION API KEY HEADER
 ```
 
-
-
-
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -81,4 +72,3 @@ Open [http://localhost:9000](http://localhost:9000) with the correct endpoint to
 Ayannah Reuben - https://www.linkedin.com/in/ayannah-reuben-552335142/
 
 Live Project Link:
-
