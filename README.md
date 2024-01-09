@@ -42,7 +42,7 @@ Clone this repo.\
 
 - Create a `.env` file in the root of your directory 
 - Edit the `.env` file as you would with API headers
-```
+```javascript
 REACT_APP_RAPID_API_ID =  ACCEPT HEADER
 REACT_APP_RAPID_API_KEY = AUTHORIZATION API KEY HEADER
 ```
