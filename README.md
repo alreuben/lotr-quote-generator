@@ -1,78 +1,84 @@
 # Lord of the Rings Quote Generator API
 
-# Getting Started with Create React App
+A React <b>'Lord of the Rings'</b> random quote generator app using a pre-existing API.\
+When opening the app, the user is prompted to click on a film from the list.\
+Once one is clicked, the app will take you to the Film page.\
+Here, the user can select any character on the page, which will select and display a random quote from that character from the chosen film.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### API
+
+The API used [https://the-one-api.dev/](https://the-one-api.dev/).
+
+
+
+
+
+
+
+### Built With
+- Node.js
+- React
+- Bootstrap
+- Express
+
+
+
+# Getting Started
+
+## Prerequisites
+
+You will need to install npm for this project. For the latest version run the following on the command line
+###  `npm install -g npm`
+
+## Installation
+
+- Get a free API Key at [https://the-one-api.dev/](https://the-one-api.dev/).
+
+
+Clone this repo.\
+`git clone git@github.com:alreuben/lotr-quote-generator.git`
+
+
+- Create a `.env` file in the root of your directory 
+- Edit the `.env` file as you would with API headers
+```javascript
+REACT_APP_RAPID_API_ID =  ACCEPT HEADER
+REACT_APP_RAPID_API_KEY = AUTHORIZATION API KEY HEADER
+```
+
+
+
+
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+###  `npm start` 
 
+To run the front-end.\
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-
-
-### `npm start` 
-
-To run front-end
-=======
-
+Open [http://localhost:3000/lotr-quote-generator](http://localhost:3000/lotr-quote-generator) to view it in your browser.
 
 
 ### `npm run start-backend` 
 
-To run back-end port
-=======
+To run the back-end.\
+Runs the API endpoints in the development mode.\
+Open [http://localhost:9000](http://localhost:9000) with the correct endpoint to view it in your browser.
+
+### Endpoints
+[http://localhost:9000/Fellowship](http://localhost:9000/Fellowship)
+
+[http://localhost:9000/TwoTowers](http://localhost:9000/TwoTowers)
+
+[http://localhost:9000/ReturnKing](http://localhost:9000/ReturnKing)
+
+
+
+# Contact
+Ayannah Reuben - https://www.linkedin.com/in/ayannah-reuben-552335142/
+
+Live Project Link:
 
