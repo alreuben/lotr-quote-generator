@@ -32,7 +32,9 @@ You will need to install npm for this project. For the latest version run the fo
 
 
 Clone this repo.\
-`git clone git@github.com:alreuben/lotr-quote-generator.git`
+```
+git clone git@github.com:alreuben/lotr-quote-generator.git
+```
 
 
 - Create a `.env` file in the root of your directory 
